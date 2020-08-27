@@ -14,16 +14,16 @@
 Fill in your details where you see this icon ✍️
 We have provided a sample Day Journey entry staring at 0. You can delete this example.
 
-## [✍️ Your Name]'s Cloud Journey
+## Han's Cloud Journey
 
-[✍️ Introduce yourself]
+I'm a Fourth Year Studnet from University of Information Technology.Now, I'm taking High Performance Computing Major and start to study Cloud Technologies.
 
-[✍️ Tell us why you started this challenge]
+Stay Home,Stay Safe,Study More ;)
 
 [✍️ Tell us where you want to be at the end of the challenge]
 
-- [✍️ Link to your Twitter](https://twitter.com/username)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
+- [✍️ Link to your Twitter] https://twitter.com/hanminmyat8
+- [✍️ Link to your LinkedIn] https://www.linkedin.com/in/han-min-myat-120234183
 
 ## Stepping out the door
 
