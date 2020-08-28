@@ -36,4 +36,4 @@ Cloud Computing provide a simple way to access servers, storage,databases and a 
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+https://twitter.com/hanminmyat8/status/1299396461415731200
