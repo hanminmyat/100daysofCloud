@@ -1,5 +1,6 @@
-**Add a cover photo like:**
-https://via.placeholder.com/cloud
+<p align="center">
+  <img src="cloud.jpg">
+</p>
 
 
 ## Cloud Computing
