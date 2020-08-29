@@ -1,52 +1,40 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<p align="center">
+  <img src="awslogo.png" />
+  </p>
 
-# New post title here
+# Getting Start with AWS
 
-## Introduction
+## Overview
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+1. Elastic Cloud Computing (EC2) - a server which run software on it.
+2. Virtual Private Cloud(VPC) - create network in the cloud, run the server in that network
+3. Simple Storage Service(S3) -upload and share file
+4. Relation Database Service(RDS)- allow to run and manage dbs (sql,mysql)
+5. Route53 -DNS ,scale according to demand
+6. Elastic Load Balancing(ELB) - load balance incoming trafffic to multiple machine, can get scale up to web application to any no. of user
+7. Autoscaling-  never down due to load
 
-## Prerequisite
+## AWS Global Infracture
+12 Regions
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+33 Availability Zones
 
-## Use Case
+54 Edge locations
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+ Each region have 2 AZ.
+ Region are defined by geographic area.
+ AZ one or more data center, geographically close each other. so they're set to low latency.
+Edge location are point of presence where we have our DNS and content delivery services.
 
-## Cloud Research
+## Some drawbacks
+1. single point of failure (server failed, software failed then app is down) 
+2. not scalable (without downtime) 
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+<img src="egArchi.png" width=800 />
 
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+https://twitter.com/hanminmyat8/status/1299756310863335424
