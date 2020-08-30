@@ -1,52 +1,40 @@
 **Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<p align=center>
+  <img src="aes.png"/>
+  </p>
 
-# New post title here
+# Amazon Elastic Search Service
 
 ## Introduction
+Today I learned Amazon Elastic Search Service from AWS Educate Program. 
+ It is a managed service that makes it easy to deploy, operate, and scale Elasticsearch clusters in the AWS Cloud
+- first  create a domain. An Amazon ES domain is synonymous with an Elasticsearch cluster. 
+- Domains are clusters with the settings, instance types, instance counts, and storage resources that you specify. 
+- Each instance acts as one Elasticsearch node.
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+<img src="AES_usecase.png" width= 900>
 
-## Prerequisite
+<img src="search_process1.png" width=900>
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+<img src="search_process2.png" width=900>
 
-## Use Case
+## Steps
+<img src="create domain.png" width=900>
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Step 1: Creating an Amazon ES Domain
 
-## Cloud Research
+Step 2: Uploading Data for Indexing
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Step 3: Searching Documents in an Amazon ES Domain
 
-## Try yourself
+Step 4: Deleting an Amazon ES Domain
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## Ref
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/what-is-amazon-elasticsearch-service.html
 
 ## Social Proof
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+https://twitter.com/hanminmyat8/status/1300115329310367745
