@@ -1,4 +1,3 @@
-**Add a cover photo like:**
 <p align=center>
   <img src="aes.png"/>
   </p>
