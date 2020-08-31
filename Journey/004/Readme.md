@@ -1,52 +1,66 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+Today I read the two topics about Amazon Elastic MapReduce(EMR) and Amazon Kinesis.
 
-# New post title here
+EMR is a cloud big data platform for processing vast amounts of data using open source tools such as Apache Spark, Apache Hive,etc.
 
-## Introduction
+Amazon Kinesis is to collect, process, and analyze real-time, streaming data.
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+# Amazon EMR
 
-## Prerequisite
+To build a cluster
+1. Choose Instances
+2. Choose Software(Quick Bundle or Custom)
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Note: In Hadoop cluster, compute and storage are tightly couple.
+So, Compute and Storage grow together.
 
-## Use Case
+ Problems : need to duplicate the cluster to prevent size loss? And Replication Adds to cost.
+ Solution: Decouple Storage and Compute
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+## Topics in EMR : Spot Integration
+Amazon EMR Integration
+You can run Amazon EMR clusters on Spot Instances and significantly reduce the cost of processing vast amounts of data on managed Hadoop clusters. You can run your EMR clusters by easily mixing Spot Instances with On-Demand and Reserved Instances using the instance fleet feature.
+<p>
+<img src='Screenshot (42).png'  />
+  
+  <em> price in normal 10 node cluster running 14hr</em>
+</p>
 
-## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+<p>
+<img src='Screenshot (43).png' />
+   
+   <em> if we increase the compute power with spot instances</em>
+</p>
 
-## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+<p>
+<img src='Screenshot (44).png'  />
+  
+  <em> and run it in 7hr</em>
+</p>
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+<p>
+<img src='Screenshot (45).png'  />
+  
+  <em> we can reduce 50% run-time and 25% cost</em>
+</p>
 
-### Step 1 — Summary of Step
+<img src='Screenshot (41).png' >
 
-![Screenshot](https://via.placeholder.com/500x300)
+## Elastic MapReduce File System
+<img src="EMRFS.png" >
 
-### Step 3 — Summary of Step
+# Amazon Kinesis
+4 services
+1. Kinesis Video Streams
+2. Kinesis Data Streams
+3. Kinesis Data Firehose
+4. Kinesis Data Analytics
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+https://twitter.com/hanminmyat8/status/1300467251879931904
