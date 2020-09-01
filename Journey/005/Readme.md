@@ -1,4 +1,4 @@
-## Today I got many detail notes about the Amazon Elastic Compute Cloud(EC2)Topic
+## Today I got many detail notes about the Amazon Elastic Compute Cloud(EC2)
   <p align="center">
   <img src="Screenshot (54).png"/>
  </p>
